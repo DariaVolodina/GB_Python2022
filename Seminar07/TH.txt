@@ -1,0 +1,24 @@
+0:00 sleep
+1:00 sleep
+2:00 sleep
+3:00 sleep
+4:00 sleep
+5:00 sleep
+6:00 sleep
+7:00 hunting
+8:00 hunting
+9:00 hunting
+10:00 something interesting
+11:00 something interesting
+12:00 something interesting
+13:00 something interesting
+14:00
+15:00
+16:00
+17:00
+18:00
+19:00
+20:00
+21:00
+22:00
+23:00
