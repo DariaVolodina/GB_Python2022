@@ -13,17 +13,13 @@ if num1 == num2:
 
 else:
     if num1 > num2:
-        temp = 0
-        temp = num2
-        num2 = num1
-        num1 = temp
-
+        num1, num2 = num2, num1
     # print(num1, num2) # проверка
 
     num = num1
     while num != (num2 + 1):
         if num % 2 == 0:
-            sum1 += 1
+            sum1 += 1 # sum = sum + 1
         if num % 3 == 0:
             sum2 += 1
         num += 1

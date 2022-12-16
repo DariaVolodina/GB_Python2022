@@ -3,7 +3,7 @@
 # Необходимо вывести на экран максимальное
 # и второе максимальное число из введенных чисел.
 
-
+#
 x = int(input('Input amount of numbers: '))
 
 if x < 0:
@@ -28,3 +28,20 @@ for i in range(1, x):
 
 print(f'Maximum number is {x_max}')
 print(f'Second maximum number is {x_max2}')
+
+
+#От Станислава
+# n = int(input())
+# a = int(input())
+# b = int(input())
+#
+# if a < b:
+#     a, b = b, a
+# for _ in range(n - 2):
+#     c = int(input())
+#     if b <= c:
+#         b, c = c, b
+#     if a <= b:
+#         a, b = b, a
+# print(a)
+# print(b)

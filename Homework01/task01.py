@@ -14,6 +14,7 @@ def check_weekday(a):
     else:
         print('Not weekend')
 
+
 num = int(input('Input number from 1 to 7: '))
 while num < 1 or num > 7:
     num = int(input('Incorrect number. Try again: '))

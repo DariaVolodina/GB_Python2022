@@ -1,6 +1,7 @@
 # Сгенерируйте список на 30 элементов.
 # Отсортируйте список по возрастанию, методом сортировки выбором
 
+from random import randint
 def sort_list(my_list):
     for i in range(len(my_list) - 1):
         for j in range(len(my_list) - i - 1):
@@ -11,7 +12,7 @@ def sort_list(my_list):
 
 a = 30
 list1 = []
-from random import randint
+
 for _ in range(a):
     list1.append(randint(0, 100))
 print(list1)

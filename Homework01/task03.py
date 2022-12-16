@@ -18,6 +18,7 @@ def quarter(x, y):
     else:
         return '4'
 
+
 num1 = int(input('Input coordinate X: '))
 num2 = int(input('Input coordinate Y: '))
 
