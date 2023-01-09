@@ -22,8 +22,8 @@ if details == '1':
     print(news_1.text)
     print(news_2.text)
 
-else:
-    pass
+# else:
+#     pass
 
 weather = input('\nХотите узнать курс доллара к рублю? (1 - "да, хочу", введите Enter, чтобы закончить): ')
 if weather == '1':
@@ -32,7 +32,7 @@ if weather == '1':
     soup2 = bs(response2, 'html.parser')
     rate = soup2.find('div', class_='currency-table__large-text')
     print(f'\nКурс ЦБ = {rate.text} рублей за доллар США')
-else:
-    pass
+# else:
+#     pass
 
 

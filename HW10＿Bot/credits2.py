@@ -1,0 +1,4 @@
+# ключ API
+bot_token = '5625384334:AAFUAEz4xutD1pmsGpW7Lkr4cpJpUdYOgtM'
+
+bot_token2 = '5919028337:AAG_Vk0gFHvBuAG82Mab6A9Ma1II44g6BYg'
